@@ -1,8 +1,52 @@
-# Getting Started with Create React App
+# Welcome to Student TaskMate
+<img src="./client/public/images/StudentTaskMateImage.png" />
+An app that allows students to interact with companies to take on tasks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Functionality](#functionality)
+* [Figma Design](#figma-design)
+* [Video Demonstration](#video-demonstration)
+* [Setup](#setup)
 
-## Available Scripts
+
+
+
+## General info
+This app was a team building project created between three people. Student TaskMate allows students and companies to create and login through the web application, which will then take them to the home page. On the homepage, there is a taskbar to the left that displays the users profile and tasks they have picked up. On the feed section, it allows companies to create posts with assigned tasks that students can see and react to if they would like to pick up the project.
+
+
+## Technologies
+This project is created with:
+* React
+* Express
+* Node
+* MongoDB
+* Figma 
+
+
+
+## Functionality
+<b />
+
+* Login Page - 
+* Register Page - 
+* Main Page - 
+
+
+## Figma Design
+Blueprint:
+<div>
+  <img src="./client/public/images/figmaLoginPage.png" />
+  <img src="./client/public/images/figmaRegistrationPage.png" />
+  <img src="./client/public/images/figmaFeedPage.png" />
+</div>
+
+## Video Demonstration
+
+
+## Setup
 
 In the project directory, you can run:
 
