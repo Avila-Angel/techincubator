@@ -15,6 +15,15 @@ code {
     monospace;
 }
 
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+}
+
 .nav {
   height: 70px;
   display: flex;
@@ -24,9 +33,15 @@ code {
   
 }
 
+.sidebar-container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
 .side-bar {
   display: flex;
-  width: 330px;
+  width: 390px;
   height: 100vh;
   background: #5E656A;
   color: #FFFFFF;
@@ -65,4 +80,46 @@ li {
   height: 25px;
   margin: 15px 25px 2px auto;
   
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 60px auto 60px auto ;
+  width: 800px;
+  height: 300px;
+
+  background: #5E656A;
+}
+
+.input-title {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.input-description {
+  width: 700px;
+  height: 120px;
+  
+}
+
+::placeholder { 
+  color: #B6B6B6;
+  opacity: 1;
+}
+
+.createPost-container {
+  /* align btn to right */
+}
+
+.createPost-btn {
+  width: 100px;
+  height: 35px;
+  margin-top: 10px;
+
 }

@@ -4,6 +4,7 @@ import Signup from "./components/Signup/Signup";
 import Login from "./components/Login/Login";
 import Navbar from "./components/Navbar/Navbar";
 import Sidebar from "./components/Sidebar/Sidebar";
+import CreatePost from "./components/CreatePost/CreatePost";
 
 function App() {
   const user = localStorage.getItem("token");
