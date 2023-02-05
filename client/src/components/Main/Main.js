@@ -1,7 +1,18 @@
 import React from "react";
+import Navbar from "../Navbar/Navbar";
+import Sidebar from "../Sidebar/Sidebar";
+import Createpost from "../CreatePost/CreatePost";
 
-function index() {
-  return <div></div>;
+function Main() {
+  return (
+    <div className="app-container">
+      <Navbar />
+      <div className="main-container">
+        <Sidebar />
+        <Createpost />
+      </div>
+    </div>
+  );
 }
 
-export default index;
+export default Main;
