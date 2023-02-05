@@ -36,7 +36,12 @@ This project is created with:
 
 
 ## Figma Design
-
+Blueprint:
+<div>
+  <img src="./client/public/images/figmaLoginPage.png" />
+  <img src="./client/public/images/figmaRegistrationPage.png" />
+  <img src="./client/public/images/figmaFeedPage.png" />
+</div>
 
 ## Video Demonstration
 
