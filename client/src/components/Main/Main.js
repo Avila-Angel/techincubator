@@ -1,7 +1,14 @@
 import React from "react";
+import Navbar from "../Navbar/Navbar";
+import Sidebar from "../Sidebar/Sidebar";
 
-function index() {
-  return <div></div>;
+function Main() {
+  return (
+    <div>
+      <Navbar></Navbar>
+      <Sidebar></Sidebar>
+    </div>
+  );
 }
 
-export default index;
+export default Main;
