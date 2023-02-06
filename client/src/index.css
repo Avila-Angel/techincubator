@@ -42,7 +42,7 @@ code {
 .side-bar {
   display: flex;
   width: 390px;
-  height: 100vh;
+  height: 150vh;
   background: #5E656A;
   color: #FFFFFF;
   flex-direction: column;
@@ -82,6 +82,17 @@ li {
   
 }
 
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 360px auto 60px auto ;
+  width: 800px;
+  height: 300px;
+
+}
+
 .post-container {
   display: flex;
   flex-direction: column;
@@ -100,6 +111,8 @@ li {
   width: 700px;
   height: 40px;
   margin-bottom: 10px;
+  padding-top: 15px;
+  margin-top: 25px;
 }
 
 .input-description {
