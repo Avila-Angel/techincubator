@@ -30,9 +30,13 @@ This project is created with:
 ## Functionality
 <b />
 
-* Login Page - 
-* Register Page - 
+* Login Page - demonstrates user authentication allowing companies or students to log in with their credentials or sign up if they don't have an account
+* Register Page - allows companies and students to create an account by putting in their name, school/company, email, and password
 * Main Page - 
+  * Navbar - Displays custom logo/icon with its associated project name
+  * Taskbar - Displays the user that is signed in along with tasks they have picked up
+  * Feed page - Display posts/projects created by companies that can be picked up by students, which can be done by reacting to the post. Also displays
+  a container with textfields allowing companies to create new taks/projects.
 
 
 ## Figma Design
@@ -44,7 +48,7 @@ Blueprint:
 </div>
 
 ## Video Demonstration
-
+![Student TaskMate Video](/client/public/images/studentTaskMateS.gif)
 
 ## Setup
 
